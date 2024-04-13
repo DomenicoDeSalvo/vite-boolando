@@ -1,5 +1,39 @@
 <script>
 export default{
+    data(){
+        return{
+            categories:[
+                {
+                    text:'Donna',
+                    href:'#'
+                },
+                {
+                    text:'Uomo',
+                    href:'#'
+                },
+                {
+                    text:'Bambini',
+                    href:'#'
+                },
+            ],
+
+            activities:[
+                {
+                    icon:'/user-24.png',
+                    href:'#'
+                },
+                {
+                    icon:'/heart-69-24.png',
+                    href:'#'
+                },
+                {
+                    icon:'/shopping-bag-24.png',
+                    href:'#'
+                },
+            ]
+
+        }
+    }
 
 }
 
@@ -12,17 +46,13 @@ export default{
             <div class="container">
                 <div class="row">
                     <ul class="nav__list">
-                        <li><a href="">Donna</a></li>
-                        <li><a href="">Uomo</a></li>
-                        <li><a href="">Bambini</a></li>
+                        <li v-for="(link, i) in categories" :key="i">{{ link.text }}</li>
                     </ul>
                     <a class="logo" href="">
                         <img src="/boolean-logo.png" alt="logo">
                     </a>
                     <ul class="nav__list">
-                        <li><a href=""><img src="/user-24.png" alt="account"></a></li>
-                        <li><a href=""><img src="/heart-69-24.png" alt="favourites"></a></li>
-                        <li><a href=""><img src="/shopping-bag-24.png" alt="cart"></a></li>
+                        <li v-for="(button, i) in activities" :key="i"><img :src="button.icon"></li>
                     </ul>
                 </div>
             </div>
