@@ -33,35 +33,35 @@ export default{
 
 <style lang="scss" scoped>
 
-.main__nav{
-    background-color: rgb(255, 105, 0);
-    color: white;
-    padding: 20px;
-    position: fixed;
-    z-index: 999;
-    left: 0;
-    width: 100%;
-}
+    .main__nav{
+        background-color: rgb(255, 105, 0);
+        color: white;
+        padding: 20px;
+        position: fixed;
+        z-index: 999;
+        left: 0;
+        width: 100%;
+    }
 
-.logo{
-    display: block;
-    width: 100px;
-}
+    .logo{
+        display: block;
+        width: 100px;
+    }
 
-.nav__list{
-    display: flex;
-    gap: 10px;
+    .nav__list{
+        display: flex;
+        gap: 10px;
 
-}
+    }
 
-.nav__list img{
-    width: 16px;
-}
+    .nav__list img{
+        width: 16px;
+    }
 
-nav .row{
-    justify-content: space-between;
-    align-items: center;
-    
-}
+    nav .row{
+        justify-content: space-between;
+        align-items: center;
+        
+    }
 
 </style>
