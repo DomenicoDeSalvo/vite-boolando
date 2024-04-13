@@ -1,5 +1,9 @@
 <script>
+import dataProducts from '../assets/db.json';
 export default{
+    data(){
+        products: dataProducts.products
+    }
 
 }
 
