@@ -13,14 +13,14 @@ export default{
                 <div class="col-4">
                     <div class="card">
                         <div class="card__header">
-                            <img src="./img/1.webp" alt="immagine_1">
+                            <img src="/1.webp" alt="immagine_1">
                             <div class="badge">
                                 <span class="discount">-50%</span>
                                 <span class="eco">Sostenibilità</span>
                             </div>
                             <div class="heart">&hearts;</div>
                             <div class="overlay">
-                                <img src="./img/1b.webp" alt="immagine_1b">
+                                <img src="/1b.webp" alt="immagine_1b">
                             </div>
                         </div>
                         <div class="card__body">
@@ -34,13 +34,13 @@ export default{
                 <div class="col-4">
                     <div class="card">
                         <div class="card__header">
-                            <img src="./img/2.webp" alt="immagine_2">
+                            <img src="/2.webp" alt="immagine_2">
                             <div class="badge">
                                 <span class="discount">-30%</span>
                             </div>
                             <div class="heart">&hearts;</div>
                             <div class="overlay">
-                                <img src="./img/2b.webp" alt="immagine_2b">
+                                <img src="/2b.webp" alt="immagine_2b">
                             </div>
                         </div>
                         <div class="card__body">
@@ -54,13 +54,13 @@ export default{
                 <div class="col-4">
                     <div class="card">
                         <div class="card__header">
-                            <img src="./img/3.webp" alt="immagine_3">
+                            <img src="/3.webp" alt="immagine_3">
                             <div class="badge">
                                 <span class="discount">-30%</span>
                             </div>
                             <div class="heart">&hearts;</div>
                             <div class="overlay">
-                                <img src="./img/3b.webp" alt="immagine_3b">
+                                <img src="/3b.webp" alt="immagine_3b">
                             </div>
                         </div>
                         <div class="card__body">
@@ -74,14 +74,14 @@ export default{
                 <div class="col-4">
                     <div class="card">
                         <div class="card__header">
-                            <img src="./img/4.webp" alt="immagine_4">
+                            <img src="/4.webp" alt="immagine_4">
                             <div class="badge">
                                 <span class="discount">-50%</span>
                                 <span class="eco">Sostenibilità</span>
                             </div>
                             <div class="heart">&hearts;</div>
                             <div class="overlay">
-                                <img src="./img/4b.webp" alt="immagine_4b">
+                                <img src="/4b.webp" alt="immagine_4b">
                             </div>
                         </div>
                         <div class="card__body">
@@ -95,10 +95,10 @@ export default{
                 <div class="col-4">
                     <div class="card">
                         <div class="card__header">
-                            <img src="./img/5.webp" alt="immagine_5">
+                            <img src="/5.webp" alt="immagine_5">
                             <div class="heart">&hearts;</div>
                             <div class="overlay">
-                                <img src="./img/5b.webp" alt="immagine5b">
+                                <img src="/5b.webp" alt="immagine5b">
                             </div>
                         </div>
                         <div class="card__body">
@@ -111,13 +111,13 @@ export default{
                 <div class="col-4">
                     <div class="card">
                         <div class="card__header">
-                            <img src="./img/6.webp" alt="immagine_6">
+                            <img src="/6.webp" alt="immagine_6">
                             <div class="badge">
                                 <span class="eco">Sostenibilità</span>
                             </div>
                             <div class="heart">&hearts;</div>
                             <div class="overlay">
-                                <img src="./img/6b.webp" alt="immagine_6b">
+                                <img src="/6b.webp" alt="immagine_6b">
                             </div>
                         </div>
                         <div class="card__body">
@@ -133,7 +133,7 @@ export default{
 
 </template>
 
-<style>
+<style lang="scss" scoped>
     .main__section{
         padding: 100px 0 20px;
     }
