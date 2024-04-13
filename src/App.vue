@@ -1,6 +1,6 @@
 <script>
 export default{
-  
+
 }
 
 </script>
@@ -9,6 +9,8 @@ export default{
 
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+
+@use './style/general';
 
 </style>
