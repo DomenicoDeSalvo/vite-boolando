@@ -94,4 +94,8 @@ export default{
         
     }
 
+    .nav__list li{
+        cursor: pointer;
+    }
+
 </style>
