@@ -1,5 +1,4 @@
 <script>
-import dataProducts from '../assets/db.json';
 import card from './AppCard.vue';
 import { store } from '../store.js';
 export default{
@@ -9,7 +8,6 @@ export default{
 
     data(){
         return{
-            products: dataProducts.products,
             store: store.products
         }
     }
