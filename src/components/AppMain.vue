@@ -1,6 +1,7 @@
 <script>
 import dataProducts from '../assets/db.json';
 import card from './AppCard.vue';
+import { store } from '../store.js';
 export default{
     components:{
         card
@@ -8,7 +9,8 @@ export default{
 
     data(){
         return{
-            products: dataProducts.products
+            products: dataProducts.products,
+            store: store.products
         }
     }
 
@@ -21,7 +23,7 @@ export default{
     <main class="main__section">
         <div class="container">
             <div class="row">
-                <div v-for="item in products" :key="item.id" class="col-4">
+                <div v-for="item in store" :key="item.id" class="col-4">
                     <card :product="item"/>
                 </div>
             </div>
