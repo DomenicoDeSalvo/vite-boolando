@@ -1,6 +1,12 @@
 <script>
 export default {
-    props:['product']
+    props:['product'],
+
+    methods: {
+        favourite(product){
+            product.isInFavorites = !product.isInFavorites
+        }
+    }
 
 }
 
@@ -13,7 +19,7 @@ export default {
             <div class="badge">
                 <li v-for="(badge , i) in product.badges" :key="i" :class="`${badge.type}`">{{ badge.value }}</li>
             </div>
-            <div :class="product.isInFavorites === true ? 'favourite':''" class="heart">&hearts;</div>
+            <div @click="favourite(product)" :class="product.isInFavorites === true ? 'favourite':''" class="heart">&hearts;</div>
             <div class="overlay">
                 <img :src="`/${product.backImage}`" alt="">
             </div>
@@ -58,6 +64,7 @@ export default {
         font-size: 30px;
         background-color: white;
         padding: 4px 12px;
+        cursor: pointer;
     }
 
     .favourite{
