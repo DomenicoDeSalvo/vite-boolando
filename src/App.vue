@@ -11,16 +11,10 @@ export default{
     AppFooter,
   },
 
-  data(){
-    return{
-      store
-    }
-  },
-
   methods: {
     addProducts(){
       axios.get('http://localhost:3000/products').then((res) => {
-        this.store.products = res.data
+      store.products = res.data
       })
     }
   },
