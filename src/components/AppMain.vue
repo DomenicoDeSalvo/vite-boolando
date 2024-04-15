@@ -8,7 +8,7 @@ export default{
 
     data(){
         return{
-            store: store.products
+            store: store
         }
     }
 
@@ -21,7 +21,7 @@ export default{
     <main class="main__section">
         <div class="container">
             <div class="row">
-                <div v-for="item in store" :key="item.id" class="col-4">
+                <div v-for="item in store.products" :key="item.id" class="col-4">
                     <card :product="item"/>
                 </div>
             </div>
